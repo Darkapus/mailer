@@ -1,0 +1,13 @@
+
+    <table unselectable="on" class='unselectable webmail table table-striped table-advance table-hover'>
+        <tbody>
+        <tr ng-class='message.seen' ng-repeat='message in mail | orderBy:sort.column:sort.descending' ng-click="selectMessage(message)" ng-dblclick='showMessage(message)' id='message_{{ message.id }}' data-messageid="{{ message.id }}">
+            <td class='inbox-small-cells'>
+                <i class="fa fa-star"></i>
+            </td>
+            <td class='view-message hidden-xs'><div class='inner_cell view-message'>{{ message.from }} <br/> {{ message.subject }}</div></td>
+            <td class='inbox-small-cells'><i class="fa fa-paperclip" ng-if="message.file==true"></i></td>
+            <td class='view-message text-right' ><div class='inner_cell last'>{{ message.date }}</div></td>
+        </tr>
+        </tbody>
+    </table>
