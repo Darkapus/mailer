@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator
+END
+IsInstanceOf.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/IsInstanceOf.php
+END
+StringLength.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/StringLength.php
+END
+DateStep.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/DateStep.php
+END
+LessThan.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/LessThan.php
+END
+Hex.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Hex.php
+END
+Explode.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Explode.php
+END
+ValidatorPluginManagerAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorPluginManagerAwareInterface.php
+END
+Csrf.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Csrf.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Digits.php
+END
+Ip.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Ip.php
+END
+CreditCard.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/CreditCard.php
+END
+Uri.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Uri.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/README.md
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Date.php
+END
+Hostname.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Hostname.php
+END
+InArray.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/InArray.php
+END
+Identical.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Identical.php
+END
+Isbn.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Isbn.php
+END
+EmailAddress.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/EmailAddress.php
+END
+NotEmpty.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/NotEmpty.php
+END
+GreaterThan.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/GreaterThan.php
+END
+Barcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Barcode.php
+END
+StaticValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/StaticValidator.php
+END
+Callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Callback.php
+END
+Iban.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Iban.php
+END
+ValidatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorInterface.php
+END
+Regex.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Regex.php
+END
+ValidatorPluginManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorPluginManager.php
+END
+Between.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Between.php
+END
+Step.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Step.php
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/composer.json
+END
+ValidatorChain.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/ValidatorChain.php
+END
+AbstractValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/AbstractValidator.php
+END

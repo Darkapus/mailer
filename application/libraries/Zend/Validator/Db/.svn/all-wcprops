@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Db
+END
+RecordExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Db/RecordExists.php
+END
+NoRecordExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Db/NoRecordExists.php
+END
+AbstractDb.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Db/AbstractDb.php
+END

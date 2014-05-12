@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Translator
+END
+TranslatorInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Translator/TranslatorInterface.php
+END
+TranslatorAwareInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Translator/TranslatorAwareInterface.php
+END

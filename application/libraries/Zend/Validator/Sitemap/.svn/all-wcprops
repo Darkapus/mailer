@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Sitemap
+END
+Changefreq.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Sitemap/Changefreq.php
+END
+Lastmod.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Sitemap/Lastmod.php
+END
+Loc.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Sitemap/Loc.php
+END
+Priority.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Sitemap/Priority.php
+END

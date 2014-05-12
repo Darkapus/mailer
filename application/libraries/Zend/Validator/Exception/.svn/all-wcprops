@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception
+END
+ExtensionNotLoadedException.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/ExtensionNotLoadedException.php
+END
+RuntimeException.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/RuntimeException.php
+END
+InvalidMagicMimeFileException.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/InvalidMagicMimeFileException.php
+END
+ExceptionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/ExceptionInterface.php
+END
+InvalidArgumentException.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/InvalidArgumentException.php
+END
+BadMethodCallException.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/Exception/BadMethodCallException.php
+END

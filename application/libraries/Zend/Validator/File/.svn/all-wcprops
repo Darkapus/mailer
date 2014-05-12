@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File
+END
+FilesSize.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/FilesSize.php
+END
+ImageSize.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/ImageSize.php
+END
+Exists.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Exists.php
+END
+UploadFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/UploadFile.php
+END
+Md5.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Md5.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Extension.php
+END
+Size.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Size.php
+END
+Upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Upload.php
+END
+WordCount.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/WordCount.php
+END
+ExcludeExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/ExcludeExtension.php
+END
+Sha1.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Sha1.php
+END
+ExcludeMimeType.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/ExcludeMimeType.php
+END
+IsCompressed.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/IsCompressed.php
+END
+Hash.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Hash.php
+END
+MimeType.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/MimeType.php
+END
+Count.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Count.php
+END
+NotExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/NotExists.php
+END
+IsImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/IsImage.php
+END
+Crc32.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cis/!svn/ver/678/trunk/vendor/zendframework/zendframework/library/Zend/Validator/File/Crc32.php
+END
