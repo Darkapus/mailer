@@ -17,6 +17,7 @@ class Imap extends \Zend\Mail\Storage\Imap{
      * get mails into folder
      */
     public function getMails($folder){
+        $this->selectFolder($folder);
 		$array = array();
 		foreach($this as $id=>$mail){
 			$flags      = $mail->getFlags();

@@ -24,6 +24,12 @@ class mailer extends CI_Controller {
 	{
 		$this->load->view('mailer/index');
 	}
+	public function test()
+	{
+	    $this->load->model('loader');
+		Loader::register();
+		$this->load->view('mailer/test');
+	}
 	public function checkmail(){
 		header('Content-Type: application/json');
 		$this->load->model('loader');
