@@ -21,17 +21,23 @@ class Element extends Object{
         return $this->dom;
     }
     
-    
+    protected $controller;
+    public function setController($controller){
+        $this->controller = $controller;
+    }
+    public function getController(){
+        return $this->controller;
+    }
 	
 	protected $attributes = array();
 	public function addAttribute($name, $content){
-	    $this->attributes = new Attribute($name, $content);
+	    array_push($this->attributes, new Attribute($name, $content));
 	    return $this;
 	}
 	public function getAttributes(){
 	    return $this->attributes;
 	}
-	
+	/*
 	protected $jsElements   = array();
 	public function addJsElement($jsElement){
         array_push($this->jsElements, $jsElement);
@@ -40,18 +46,28 @@ class Element extends Object{
     public function getJsElements(){
         return $this->jsElements;
     }
-    
+    */
 	public function preRender(){
-	    echo '<'.$this->getDom().' id="'.$this->getId().'" class="'.implode(' ', $this->getClass()).'"';
+	    // si il existe un controller
+	    $this->getController() && $this->addAttribute("ng-controller", $this->getController().'');
+	    $this->addAttribute("id", $this.'');
+	    $this->addAttribute("class", implode(' ', $this->getClass()));
+	    
+	    echo '<'.$this->getDom().' ';
 	    foreach($this->getAttributes() as $attribute){
-	        echo $attribute->getName().'='.$attribute->getContent();
+	        echo $attribute->__toString();
 	    }
 	    echo '>';
 	}
 	public function render(){
-	    
+	    parent::render();
 	}
 	public function postRender(){
 	    echo '</'.$this->getDom().'>';
+	}
+	
+	public function addFunction($name, $function){
+	    $this->getController()->addChild(new Behavior('$scope.'.$name.'='.$function.';'));
+	    return $this;
 	}
 }

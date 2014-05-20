@@ -1,27 +1,30 @@
 <?php
 namespace AngularComponent\Storage;
 
-class JsonStorage extends \AngularComponent\Core\Storage{
+class ExternalJsonStorage extends \AngularComponent\Core\Storage{
     
-    public function __construct($name, $id = null, $url, $method='POST', $params = null){
-        parent::__construct(new \AngularComponent\Core\Controller($name), array('$scope'), $id);
+    public function __construct($name, $url, $method='POST', $params = null, $id = null){
+        $this->setUrl($url);
+        $this->setMethod($method);
+        $this->setParams($params);
+        $content = '$http({url: "'.$this->getUrl().'", method: "'.$this->getMethod().'", data: '.json_encode($this->getParams()).'}).success(function(data) { $scope.data = data;});';
+        parent::__construct($name, $content, $id);
         
         if(is_null($params)){
              $params = new \stdClass();
         }
         
-        $this->setUrl($url);
-        $this->setMethod($method);
-        $this->setParams($params);
+        
     }
+    protected $url;
     public function setUrl($url){
         $this->url = $url;
         return $this;
     }
     public function getUrl(){
-        return $this->url;
+        return $this->url; 
     }
-    
+    protected $method;
     public function setMethod($method){
         $this->method = $method;
         return $this;
@@ -30,16 +33,12 @@ class JsonStorage extends \AngularComponent\Core\Storage{
         return $this->method;
     }
     
+    protected $params;
     public function setParams($params){
         $this->params = $params;
         return $this;
     }
     public function getParams(){
         return $this->params;
-    }
-    
-    public function render(){
-        parent::render();
-        echo '$http({url: "'.$this->getUrl().'", method: "'.$this.getMethod().'", data: '.json_encode($params).'}).success(function(data) { $scope.data = data;});';
     }
 }

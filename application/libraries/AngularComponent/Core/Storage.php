@@ -16,13 +16,17 @@ class Storage extends Behavior{
     public function getFields(){
         return $this->fields;
     }
+    protected $name;
+    public function setName($name){
+        $this->name = $name;
+        return $this;
+    }
+    public function getName(){
+        return $this->name;
+    }
     
-    
-    
-    /**
-     * Comment on récupére la data ici
-     */
-    public function render(){
-        echo '$scope.data       = []';
+    public function __construct($name, $content, $id=null){
+        parent::__construct($content, $id);
+        $this->setName($name);
     }
 }

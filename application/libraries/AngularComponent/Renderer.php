@@ -21,6 +21,10 @@ class Renderer{
     public function getApplication(){
         return $this->application;
     }
+    public function flush(){
+        self::$i = new Renderer();
+        return self::$i;
+    }
     public function show(Core\Element $element){
         // rendu html
         echo '<div class="ac-application" ng-app="'.$this->getApplication().'">';

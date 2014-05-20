@@ -26,7 +26,7 @@ class FormatedMessage{
     
     private function getUnencodedPart($part){
         $content = $part->getContent();
-        var_dump($this->getPartEncodage($part));
+        
         switch($this->getPartEncodage($part)){
             case 'base64':
                 $content = base64_decode($content);
@@ -40,6 +40,13 @@ class FormatedMessage{
             default:
                 $content = $content;
                 break;
+        }
+        
+        switch($this->getPartCharset($part)){
+            case 'ISO-8859-1':
+                $content = utf8_encode($content);
+            default:
+                $content = $content;
         }
         return $content;
     }
@@ -63,13 +70,13 @@ class FormatedMessage{
         return $mode;
     }
     private function getPartCharset($part){
+        $mode = 'utf8';
         if($part->getHeaders()->get('contenttype')){
 				$content_type = $part->getHeaders()->get('contenttype')->getFieldValue();
 				preg_match('/.*charset.*"(.*)"/', $content_type, $charset);
+				$mode = $charset[1];
         }
-        else{
-            
-        }
+        return $mode;
     }
     public function getAllParts(){
         $contents   = array();

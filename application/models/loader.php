@@ -1,4 +1,5 @@
 <?php
+define('RC', "\r\n");
 /**
  * Cette class permet de gérer les autoload des fichiers dans librairies qui sont désignées par des namespaces
  * Pour cela il suffit de faire :

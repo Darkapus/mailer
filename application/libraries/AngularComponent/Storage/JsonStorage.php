@@ -4,7 +4,7 @@ namespace AngularComponent\Storage;
 class JsonStorage extends \AngularComponent\Core\Storage{
     protected $jsonData = '{}';
     public function __construct($name, $jsonData, $id = null){
-        parent::__construct(new \AngularComponent\Core\Controller($name), array('$scope'), $id);
+        parent::__construct($name, array('$scope'), $id);
         $this->setData($jsonData);
     }
     

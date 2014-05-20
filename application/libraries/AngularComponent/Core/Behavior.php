@@ -3,12 +3,14 @@ namespace AngularComponent\Core;
 
 class Behavior extends Object{
     protected $arguments = array();
-    public function __construct(Controller $controller, array $arguments = array(), $content, $id=null){
+    public function __construct($content, $id=null){
         
         parent::__construct($id);
-        $this->arguments = $arguments;
-        $this->setController($controller);
-        $this->getController()->addChild($this);
+        preg_match_all('/(\$[a-zA-Z]+)/', $content, $arguments);
+        
+        $this->setContent($content);
+        $this->arguments = $arguments[1];
+        
     }
     protected $content ;
     public function setContent($content){
@@ -26,16 +28,8 @@ class Behavior extends Object{
     	return $this->arguments;
     }
     
-    protected $controller;
-    public function setController(Controller $controller){
-        $this->controller = $controller;
-        return $this;
-    }
-    public function getController(){
-        return $this->controller;
-    }
     
     public function render(){
-        echo $this->getContent();
+        echo $this->getContent().';'.RC;
     }
 }

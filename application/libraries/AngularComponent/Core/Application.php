@@ -27,15 +27,36 @@ class Application extends Object{
     public function preRender(){
         
     }
+    
+    protected $startSymbol = "[[";
+    public function setStartSymbol($start){
+        $this->startSymbol = $start;
+        return $this;
+    }
+    public function getStartSymbol(){
+        return $this->startSymbol;
+    }
+    protected $endSymbol = "]]";
+    public function setEndSymbol($end){
+        $this->endSymbol = $end;
+        return $this;
+    }
+    public function getEndSymbol(){
+        return $this->endSymbol;
+    }
+    
     public function render(){
-        echo 'var '.$this.' = angular.module("'.$this.'", ["ngRoute"]);';
-        
+        echo 'var '.$this.' = angular.module("'.$this.'", ["ngRoute"]);'.RC;
+        echo $this.'.config(function($interpolateProvider) {
+          $interpolateProvider.startSymbol("'.$this->getStartSymbol().'");
+          $interpolateProvider.endSymbol("'.$this->getEndSymbol().'");
+        });'.RC;
         foreach($this->getControllers() as $controller){
             echo $this.'.controller("'.$controller.'"';
             $controller->preRender();
             $controller->render();
             $controller->postRender();
-            echo ');';
+            echo ');'.RC;
         }
         
         

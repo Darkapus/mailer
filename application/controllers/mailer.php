@@ -63,11 +63,15 @@ class mailer extends CI_Controller {
 		\Mailer\Imap::i()->appendMessage($message->toString(), 'Sent');
 	}
 	public function readmail(){
+		$data               = file_get_contents("php://input");
+		
+		// on recupere la data envoyé par angularjs
+		$postData           = (array)json_decode($data);
 		
 		$this->load->model('loader');
 		Loader::register();
-		
-		echo \Mailer\Imap::i()->getFormatedMessage($_GET['id']);
+		\Mailer\Imap::i()->selectFolder($postData['folder']);
+		echo \Mailer\Imap::i()->getFormatedMessage($postData['id']);
 	}
 }
 
